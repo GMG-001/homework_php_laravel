@@ -10,19 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc709e2-411f-4a6b-98bb-38197676e994" name="Default Changelist" comment="finish_commit">
-      <change beforePath="$PROJECT_DIR$/assignmet#1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignmet#1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignmet#1/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignmet#1/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignmet#1/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/resources/views/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignmet#1/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/resources/views/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignmet#1/resources/views/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/resources/views/layout/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignmet#1/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/resources/views/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignmet#1/resources/views/posts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/resources/views/posts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignmet#1/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignmet#1/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignmet#1/webpack.mix.js" afterDir="false" />
-    </list>
+    <list default="true" id="0cc709e2-411f-4a6b-98bb-38197676e994" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +173,7 @@
       <workItem from="1602591005854" duration="11000" />
       <workItem from="1597697563005" duration="630000" />
       <workItem from="1597696198452" duration="1364000" />
-      <workItem from="1602597181993" duration="10333000" />
+      <workItem from="1602597181993" duration="10645000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1602516432389</created>
