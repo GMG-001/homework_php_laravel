@@ -7,13 +7,13 @@
         <form class="mx-20" method="post" enctype="multipart/form-data" action="{{route('post.update', $post->id)}}">
             @method('PUT')
             <div class="box-body">
-                <div class="form-group">
+                <div class="form-group text-gray-500">
                     <label for="title">Post title</label>
-                    <input type="text" class="bg-gray-800 rounded-full w-64 px-4 py-1" placeholder="title" value="{{old('title', $post->title)}}">
+                    <input type="text" class="bg-gray-800 rounded-full w-64 px-4 py-1" placeholder="Nano" name="title" value="{{old('title', $post->title)}}">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Post text</label>
-                    <input type="text" class="bg-gray-800 rounded-full w-64 px-4 py-1" placeholder="text" value="{{old('text', $post->text)}}">
+                    <label for="text">Post text</label>
+                    <input type="text" class="bg-gray-800 rounded-full w-64 px-4 py-1" placeholder="text" name="text" value="{{old('text', $post->text)}}">
                 </div>
             </div>
             <input type="hidden" name="_token" id="csrf_token" value="{{csrf_token()}}">
