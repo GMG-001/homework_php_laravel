@@ -4,12 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PostControler extends Controller
 {
     public function index(){
         $posts=Post::all();
-
         return view('posts')->with('posts', $posts);
     }
     public function show($id){
@@ -41,8 +41,8 @@ class PostControler extends Controller
         return redirect()->back();
     }
     public function user_info(){
-        $my_posts=Post::all();
-        return view('user.my_posts')->with('my_posts',$my_posts);
+        $user=Auth::user();
+        $user->posts;
+        return view('user.my_posts')->with('my_info',$user);
     }
-
 }

@@ -24,16 +24,25 @@
     </div>
     <div>
         <div>
-            @foreach($my_posts as $post)
-                <div>post
+                <div class="bg-none text-white mx-10">
                     <div>
-                        <a>სახელი: {{$post->user->name}}</a>
+                        <a>სახელი: {{$my_info->name}}</a>
                     </div>
-                    <a>იმეილი: {{$post->user->email}}</a>
-                </div>
-                <div>
+                    <div>
+                        <a>იმეილი: {{$my_info->email}}</a>
+                    </div>
+                    @foreach($my_info->posts as $post)
+                        <div class="mt-10">
+                            <a>პოსტის სახელი: {{$post->title}}</a>
+                        </div>
+                        <div>
+                            <a>პოსტის ტექსტი: {{$post->text}}</a>
+                        </div>
+
+                        <div>
+                        </div>
+                    @endforeach
                 </div>
         </div>
-        @endforeach
     </div>
 @endsection

@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427e5c2b-12f3-4080-a7bf-a0fd9cd9d47a" name="Default Changelist" comment="assignmet_2" />
+    <list default="true" id="427e5c2b-12f3-4080-a7bf-a0fd9cd9d47a" name="Default Changelist" comment="assignmet_2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,6 +162,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -180,6 +185,9 @@
       <workItem from="1605901082415" duration="3582000" />
       <workItem from="1605905311900" duration="1708000" />
       <workItem from="1605931339479" duration="5894000" />
+      <workItem from="1605937719012" duration="3398000" />
+      <workItem from="1605946171229" duration="3122000" />
+      <workItem from="1605963280585" duration="12676000" />
     </task>
     <task id="LOCAL-00001" summary="assignmet_2">
       <created>1605906888443</created>
@@ -195,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605937058408</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="assignmet_2">
+      <created>1605978260096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605978260096</updated>
+    </task>
+    <task id="LOCAL-00004" summary="assignmet_2_1">
+      <created>1605978517346</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605978517346</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,9 +238,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="assignmet_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignmet_2" />
+    <MESSAGE value="assignmet_2_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignmet_2_1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="380" y="202" width="596" height="360" key="#Notifications" timestamp="1605978660504">
+      <screen x="0" y="27" width="1366" height="715" />
+    </state>
+    <state x="380" y="202" width="596" height="360" key="#Notifications/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1605978660504" />
     <state x="1473" y="43" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605901897636">
       <screen x="1366" y="0" width="1024" height="768" />
     </state>
@@ -227,17 +254,23 @@
       <screen x="1366" y="0" width="1024" height="768" />
     </state>
     <state x="1611" y="140" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1605931510305" />
-    <state x="1366" y="81" width="1014" height="602" key="DiffContextDialog" timestamp="1605906976266">
-      <screen x="1366" y="0" width="1024" height="768" />
+    <state x="0" y="102" width="1092" height="602" key="DiffContextDialog" timestamp="1605978425744">
+      <screen x="0" y="27" width="1366" height="715" />
     </state>
+    <state x="0" y="102" width="1092" height="602" key="DiffContextDialog/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1605978425744" />
     <state x="1366" y="81" width="1014" height="602" key="DiffContextDialog/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1605906976266" />
     <state x="1661" y="140" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604730874799">
       <screen x="1366" y="0" width="1024" height="768" />
     </state>
     <state x="1661" y="140" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1604730874799" />
-    <state x="1473" y="118" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605937106523">
-      <screen x="1366" y="0" width="1024" height="768" />
+    <state x="552" y="295" width="252" height="174" key="VCS.EditChangelistDialog" timestamp="1605978609447">
+      <screen x="0" y="27" width="1366" height="715" />
     </state>
+    <state x="552" y="295" width="252" height="174" key="VCS.EditChangelistDialog/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1605978609447" />
+    <state x="143" y="137" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605978654477">
+      <screen x="0" y="27" width="1366" height="715" />
+    </state>
+    <state x="143" y="137" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1605978654477" />
     <state x="1473" y="118" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1605937106523" />
     <state x="1542" y="168" key="run.anything.popup" timestamp="1604730817950">
       <screen x="1366" y="0" width="1024" height="768" />
