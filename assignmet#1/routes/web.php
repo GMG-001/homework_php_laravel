@@ -18,13 +18,22 @@ Route::get('post_login', [\App\Http\Controllers\LoginController::class, 'login']
 Route::get('/login', [\App\Http\Controllers\LoginController::class, 'getLogin'])->name('Login');
 Route::get('/',[\App\Http\Controllers\PostControler::class, 'index'])->name('posts.show');
 
+Route::get('/registration', [\App\Http\Controllers\LoginController::class, 'registration'])->name('user.registration');
+Route::get('/registration/save', [\App\Http\Controllers\LoginController::class, 'registration_save'])->name('user.registration.save');
+
+
 Route::middleware('auth')->group(function (){
-Route::get('/create', [\App\Http\Controllers\PostControler::class, 'create'])->name('post.create');
-Route::get('/{id}', [\App\Http\Controllers\PostControler::class, 'show'])->name('post.show');
-Route::post('/savepost', [\App\Http\Controllers\PostControler::class, 'save'])->name('post.save');
-Route::get('/{id}/edit', [\App\Http\Controllers\PostControler::class, 'edit'])->name('post.edit');
-Route::put('/{id}/update', [\App\Http\Controllers\PostControler::class, 'update'])->name('post.update');
-Route::delete('/{id}/delete', [\App\Http\Controllers\PostControler::class, 'delete'])->name('post.delete');
-Route::get('/logout', [\App\Http\Controllers\LoginController::class, 'logout'])->name('logout');
-Route::get('/user_info', [\App\Http\Controllers\PostControler::class, 'user_info'])->name('user_info');
+
+    Route::get('/create', [\App\Http\Controllers\PostControler::class, 'create'])->name('post.create');
+    Route::get('posts/{id}', [\App\Http\Controllers\PostControler::class, 'show'])->name('post.show');
+    Route::post('/savepost', [\App\Http\Controllers\PostControler::class, 'save'])->name('post.save');
+    Route::get('/{id}/edit', [\App\Http\Controllers\PostControler::class, 'edit'])->name('post.edit');
+    Route::put('/{id}/update', [\App\Http\Controllers\PostControler::class, 'update'])->name('post.update');
+    Route::delete('/{id}/delete', [\App\Http\Controllers\PostControler::class, 'delete'])->name('post.delete');
+    Route::get('/logout', [\App\Http\Controllers\LoginController::class, 'logout'])->name('logout');
+    Route::get('/user_info', [\App\Http\Controllers\PostControler::class, 'user_info'])->name('user_info');
 });
+
+//Route::get('/user_info', function () {
+//    return view('user.my_posts');
+//});

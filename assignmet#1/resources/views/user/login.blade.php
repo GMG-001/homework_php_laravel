@@ -11,7 +11,8 @@
             <div class="textbox">
                 <input type="password" placeholder="password" name="password" value="">
             </div>
-            <button class="btn" type="submit">sign in</button>
+            <button class="btn" type="submit">SING IN</button>
+            <button class="btn"><a href="{{route('user.registration')}}">SING UP</a></button>
         </div>
     </form>
 @endsection
