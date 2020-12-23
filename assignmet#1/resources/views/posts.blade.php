@@ -38,17 +38,19 @@
                                                 <i class="fa fa-pencil-scuare text-white">edit</i>
                                             </a>
                                         </div>
-                                        <div class="ml-4 text-lg leading-7 font-semibold">
-                                            <form method="post" action="{{route('post.delete',$post->id)}}">
-                                                @csrf
-                                                @method('DELETE')
-                                                <button type="submit" class="fa fa-tr">
-                                                    del
-                                                </button>
-                                            </form>
+                                        <div class="">
+                                            <button type="submit" class="fa fa-trash btn-delete" url="{{route('post.delete',$post->id)}}"></button>
                                         </div>
+                                        @can('approve', $post)
+                                            <div>
+                                                @if($post->is_approves)
+                                                    <button type="submit" class="fa fa-check btn-approved" url="{{route('approve',$post->id)}}"></button>
+                                                @else
+                                                    <button type="submit" class="fa fa-thumbs-up btn-approve" url="{{route('approve',$post->id)}}"></button>
+                                                @endif
+                                            </div>
+                                        @endcan
                                     </div>
-
                                     <div class="ml-12">
                                         <div class="mt-2 text-orange-300 dark:text-gray-400 text-sm">
                                             {{$post->text}}
@@ -61,4 +63,51 @@
                             </div>
                         </div>
                     @endforeach
+    <script type="text/javascript">
+        $(document).ready(function (){
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            $(document).on('click', '.btn-delete', function (e){
+                e.preventDefault();
+                $this=$(this);
+                $.ajax({
+                    type: 'DELETE',
+                    url: $this.attr('url'),
+                    success: function (){
+                        $this.closest('.post').remove()
+                    }
+                });
+            });
+
+            $(document).on('click', '.btn-approve', function (e){
+                e.preventDefault();
+                $this=$(this);
+                $.ajax({
+                    type: 'POST',
+                    url: $this.attr('url'),
+                    success: function (){
+                        $this.removeClass('fa-thumbs-up');
+                        $this.addClass('fa-check');
+                    }
+                });
+            });
+
+            $(document).on('click', '.btn-approved', function (e){
+                e.preventDefault();
+                $this=$(this);
+                $.ajax({
+                    type: 'POST',
+                    url: $this.attr('url'),
+                    success: function (){
+                        $this.removeClass('fa-check');
+                        $this.addClass('fa-thumbs-up');
+                    }
+                });
+            });
+        });
+
+    </script>
 @endsection

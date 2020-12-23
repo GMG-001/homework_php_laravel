@@ -10,8 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427e5c2b-12f3-4080-a7bf-a0fd9cd9d47a" name="Default Changelist" comment="assignmet_2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="427e5c2b-12f3-4080-a7bf-a0fd9cd9d47a" name="Default Changelist" comment="assignmet_3">
+      <change beforePath="$PROJECT_DIR$/../.idea/php-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/php-laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -135,10 +137,11 @@
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jvVpupAhDl3J3pGfDVZ6laV6Yn" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -152,7 +155,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/migrations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,10 +163,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database/migrations" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -188,6 +197,19 @@
       <workItem from="1605937719012" duration="3398000" />
       <workItem from="1605946171229" duration="3122000" />
       <workItem from="1605963280585" duration="12676000" />
+      <workItem from="1606313478631" duration="259000" />
+      <workItem from="1606469545605" duration="164000" />
+      <workItem from="1606727883984" duration="455000" />
+      <workItem from="1606734484520" duration="78000" />
+      <workItem from="1606739210779" duration="246000" />
+      <workItem from="1606746145244" duration="45000" />
+      <workItem from="1606755448863" duration="22000" />
+      <workItem from="1607073007451" duration="829000" />
+      <workItem from="1607074842530" duration="2183000" />
+      <workItem from="1607093900935" duration="2290000" />
+      <workItem from="1607106398067" duration="240000" />
+      <workItem from="1607786591014" duration="166000" />
+      <workItem from="1608722624867" duration="7466000" />
     </task>
     <task id="LOCAL-00001" summary="assignmet_2">
       <created>1605906888443</created>
@@ -240,41 +262,5 @@
     <MESSAGE value="assignmet_2" />
     <MESSAGE value="assignmet_2_1" />
     <option name="LAST_COMMIT_MESSAGE" value="assignmet_2_1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="380" y="202" width="596" height="360" key="#Notifications" timestamp="1605978660504">
-      <screen x="0" y="27" width="1366" height="715" />
-    </state>
-    <state x="380" y="202" width="596" height="360" key="#Notifications/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1605978660504" />
-    <state x="1473" y="43" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605901897636">
-      <screen x="1366" y="0" width="1024" height="768" />
-    </state>
-    <state x="1473" y="43" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1605901897636" />
-    <state x="1611" y="140" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605931510305">
-      <screen x="1366" y="0" width="1024" height="768" />
-    </state>
-    <state x="1611" y="140" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1605931510305" />
-    <state x="0" y="102" width="1092" height="602" key="DiffContextDialog" timestamp="1605978425744">
-      <screen x="0" y="27" width="1366" height="715" />
-    </state>
-    <state x="0" y="102" width="1092" height="602" key="DiffContextDialog/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1605978425744" />
-    <state x="1366" y="81" width="1014" height="602" key="DiffContextDialog/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1605906976266" />
-    <state x="1661" y="140" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604730874799">
-      <screen x="1366" y="0" width="1024" height="768" />
-    </state>
-    <state x="1661" y="140" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1604730874799" />
-    <state x="552" y="295" width="252" height="174" key="VCS.EditChangelistDialog" timestamp="1605978609447">
-      <screen x="0" y="27" width="1366" height="715" />
-    </state>
-    <state x="552" y="295" width="252" height="174" key="VCS.EditChangelistDialog/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1605978609447" />
-    <state x="143" y="137" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605978654477">
-      <screen x="0" y="27" width="1366" height="715" />
-    </state>
-    <state x="143" y="137" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1605978654477" />
-    <state x="1473" y="118" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1605937106523" />
-    <state x="1542" y="168" key="run.anything.popup" timestamp="1604730817950">
-      <screen x="1366" y="0" width="1024" height="768" />
-    </state>
-    <state x="1542" y="168" key="run.anything.popup/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1604730817950" />
   </component>
 </project>

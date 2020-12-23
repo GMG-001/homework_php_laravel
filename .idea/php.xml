@@ -110,6 +110,7 @@
       <path value="$PROJECT_DIR$/assignmet#1/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/assignmet#1/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/assignmet#1/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/fakerphp/faker" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />

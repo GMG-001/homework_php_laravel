@@ -38,9 +38,6 @@
                         <div>
                             <a>პოსტის ტექსტი: {{$post->text}}</a>
                         </div>
-
-                        <div>
-                        </div>
                     @endforeach
                 </div>
         </div>

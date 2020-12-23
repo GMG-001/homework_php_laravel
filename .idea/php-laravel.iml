@@ -20,6 +20,7 @@
       <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/facade/flare-client-php" />
       <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/facade/ignition" />
       <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/fakerphp/faker" />
       <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/fideloper/proxy" />
       <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/filp/whoops" />
       <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/fruitcake/laravel-cors" />

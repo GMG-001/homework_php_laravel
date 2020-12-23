@@ -3,13 +3,17 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
+use App\Models\User;
+use App\Notifications\PostApprovedNotification;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class PostControler extends Controller
 {
     public function index(){
-        $posts=Post::all();
+//        $posts=Post::all();
+        $post= new Post();
+        $posts=$post->getPosts();
         return view('posts')->with('posts', $posts);
     }
     public function show($id){
@@ -21,7 +25,14 @@ class PostControler extends Controller
     }
 
     public function save(Request $request){
+        $request->validate([
+            'title' => 'required|unique:posts|max:255',
+            'text' => 'required',
+        ]);
+        
+        $user=Auth::user();
         $post=new Post($request->all());
+        $post->user_id=$user->id;
         $post->save();
         return redirect()->back();
     }
@@ -38,11 +49,33 @@ class PostControler extends Controller
     public function delete($id){
         $post=Post::findOrFail($id);
         $post->delete();
-        return redirect()->back();
+//        return redirect()->back();
     }
     public function user_info(){
         $user=Auth::user();
-        $user->posts;
+//        $user->posts;
         return view('user.my_posts')->with('my_info',$user);
+    }
+    public function approve(Post $post){
+//        $post->is_approves=true;
+//        $post->save();
+//        return redirect()->route('posts.show');
+
+        if ($post->is_approves==false){
+            $post->is_approves=true;
+            $data=[
+                "text"=>'post with id of'.'  '.$post->id.'  '.'has been approved'
+            ];
+
+        }else{
+            $post->is_approves=false;
+            $data=[
+                "text"=>'post with id of'.'  '.$post->id.'  '.'has been dis_approved'
+            ];
+        }
+        $post->save();
+        $user=User::find(1);
+        $user->notify(new PostApprovedNotification($data));
+//        return redirect()->back();
     }
 }

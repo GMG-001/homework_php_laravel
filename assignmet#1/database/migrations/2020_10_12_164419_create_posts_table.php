@@ -18,6 +18,7 @@ class CreatePostsTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->string('title');
             $table->string('text');
+            $table->boolean('is_approves')->nullable();
             $table->timestamps();
             $table->foreign('user_id')
                 ->references('id')

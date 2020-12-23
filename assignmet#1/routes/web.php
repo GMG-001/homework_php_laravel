@@ -32,6 +32,10 @@ Route::middleware('auth')->group(function (){
     Route::delete('/{id}/delete', [\App\Http\Controllers\PostControler::class, 'delete'])->name('post.delete');
     Route::get('/logout', [\App\Http\Controllers\LoginController::class, 'logout'])->name('logout');
     Route::get('/user_info', [\App\Http\Controllers\PostControler::class, 'user_info'])->name('user_info');
+    Route::post('/posts/{post}/approve', [\App\Http\Controllers\PostControler::class, 'approve'])->name('approve');
+    Route::get('/mail/create', [\App\Http\Controllers\MailController::class, 'create_mail'])->name('create_mail');
+    Route::post('/mail/send', [\App\Http\Controllers\MailController::class, 'send'])->name('send.mail');
+
 });
 
 //Route::get('/user_info', function () {
