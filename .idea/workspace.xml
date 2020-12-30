@@ -138,6 +138,18 @@
       <path value="$PROJECT_DIR$/assignmet#1/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/assignmet#1/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/assignmet#1/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/league/event" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/assignmet#1/vendor/psr/http-factory" />
     </include_path>
   </component>
   <component name="ProjectId" id="1imbzwYa2yyaucbJZfYn0W18eWb" />
@@ -155,7 +167,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Php/Php_test_first" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_php/movie_laravel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -167,6 +179,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assignmet#1" />
       <recent name="$PROJECT_DIR$/assignmet#1/vendor" />
@@ -194,6 +209,7 @@
       <workItem from="1606128142288" duration="440000" />
       <workItem from="1606129444888" duration="50000" />
       <workItem from="1607179387608" duration="3626000" />
+      <workItem from="1609351116614" duration="1037000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1602516432389</created>

@@ -117,6 +117,18 @@
       <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/php-http/message-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/symfony/psr-http-message-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/laravel/passport" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/nyholm/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/league/oauth2-server" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/league/event" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/defuse/php-encryption" />
+      <excludeFolder url="file://$MODULE_DIR$/assignmet#1/vendor/psr/http-factory" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
