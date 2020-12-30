@@ -11,8 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cc709e2-411f-4a6b-98bb-38197676e994" name="Default Changelist" comment="finish_commit">
-      <change beforePath="$PROJECT_DIR$/.idea/php-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d1b2bc2d-4af9-431e-b6e1-7deabf4f9ea5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d1b2bc2d-4af9-431e-b6e1-7deabf4f9ea5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +208,7 @@
       <workItem from="1606128142288" duration="440000" />
       <workItem from="1606129444888" duration="50000" />
       <workItem from="1607179387608" duration="3626000" />
-      <workItem from="1609351116614" duration="1037000" />
+      <workItem from="1609351116614" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1602516432389</created>
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602610367444</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish_commit">
+      <created>1609352162841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609352162841</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

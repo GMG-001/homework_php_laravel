@@ -28,11 +28,22 @@ class PostControler extends Controller
         $request->validate([
             'title' => 'required|unique:posts|max:255',
             'text' => 'required',
+            'image' => 'required'
         ]);
-        
+
         $user=Auth::user();
         $post=new Post($request->all());
         $post->user_id=$user->id;
+        if($request->hasFile('image')){
+            $file=$request->file('image');
+            $extension=$file->getClientOriginalExtension();
+            $filename=time().'.'.$extension;
+            $file->move('img/post_image/', $filename);
+            $post->image=$filename;
+        }else{
+            abort(500);
+        }
+
         $post->save();
         return redirect()->back();
     }

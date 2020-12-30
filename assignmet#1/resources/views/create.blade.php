@@ -14,10 +14,13 @@
                     <label for="exampleInputEmail1">Post text</label>
                     <input type="text" class="bg-gray-700 rounded-full w-64 px-4 py-1" placeholder="text" name="text">
                 </div>
+                <div class="form-group">
+                    <input type="file" multiple class="bg-gray-700 rounded-full w-64 px-4 py-1" name="image">
+                </div>
             </div>
             <input type="hidden" name="_token" id="csrf_token" value="{{csrf_token()}}">
             <div class="box-footer">
-                <button type="submit" class="btn btn-primary mx-32">Save</button>
+                <button type="submit" class="btn btn-primary mx-32">დამატება</button>
             </div>
         </form>
     </div>

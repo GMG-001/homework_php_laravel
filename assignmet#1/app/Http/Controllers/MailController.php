@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\OrderShippedMail;
 use App\Mail\PostApprovedMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -19,7 +18,7 @@ class MailController extends Controller
 //        });
 
         $data = [
-            "text" =>'your order shipped'
+            "text" =>'post approved'
         ];
 
         Mail::to(request('mail'))->send(new PostApprovedMail($data));
